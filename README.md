@@ -1,6 +1,6 @@
 # CMD_DROPLETS
 
-A command line utility to create, start, stop, and delete  droplet instances in Digital ocean cloud. 
+A command line utility to create, start, stop, and delete droplet instances in DigitalOcean cloud. 
 
 ## Getting Started
 
