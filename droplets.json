@@ -1,0 +1,13 @@
+{
+	"region": "fra1",
+	"size": "512mb",
+	"image": "ubuntu-17-10-x64",
+	"ssh_keys": [
+		"ec:0c:0f:03:d2:58:66:2d:b6:92:b2:99:75:0d:af:e0"
+	],
+	"backups": false,
+	"ipv6": false,
+	"private_networking": null,
+	"volumes": null,
+	"user_data": "#!/bin/bash \\necho -e '\\nGatewayPorts yes' >> /etc/ssh/sshd_config \\nservice ssh restart"
+}
